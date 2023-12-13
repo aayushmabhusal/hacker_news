@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#mainCont {
+  max-width: 1240px;
+  margin: 0px auto;
+}
+
+#nav {
+  height: 80px;
+  width: 100%;
+  background-color: #5271ff;
+  margin-bottom: 20px;
+  color: white;
+  display: fixed;
+  top: 0;
+  right: 0;
+}
+.innerNav {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  height: 80px;
+  width: 80px;
+}
+#siteName {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.eachPost {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-left: 6px solid #5271ff;
+  padding: 12px;
+  width: calc(100% / 2 - 20px);
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#postTitle{
+    font-size: large;
+    padding: 4px 16px;
+}
+#postDetails{
+    display: flex;
+}
+.pa{
+  text-decoration: none;
+}
+.pd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16px;
+}
+.pdd{
+    margin-right: 8px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#page-info{
+    font-size: x-large;
+}
+
+.postText{
+  font-size: large;
+  margin: 8px 0px;
+}
+
+.flexBox{
+  display: flex;
+  gap: 0px 16px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.comment {
+  margin-left: 20px;
+  border-left: 2px solid #aaa9a9;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+#foot {
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: #5271ff;
+  color: white; */
+
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#innerFoot {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.themeText {
+  color: #5271ff;
+}
